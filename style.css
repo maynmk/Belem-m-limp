@@ -393,9 +393,6 @@ text-align: center;
     .logo img {
         width: 70%;
     }
-    .hero{
-        height: 100vh;
-    }
     .hero-img{
         padding-top: 150px;
         height: 400px;
@@ -434,4 +431,40 @@ text-align: center;
         margin-left: -5%;
     }
 }
+@media(max-width: 420px){
+    header {
+        width: 360px ;
+        right: auto;
+    }
+    .nav-btn{
+        display: none;
+        
+    }    
+    .hero-text{
+       margin-left: -25px;
+    }
+    .hero-text h1 {
+        width: 320px;
+        font-size: 6vw;
+    }
+    .hero-text h1 span{
+        color: var(--text-color2);
+        
+    }
+    .hero-text h5 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .hero-text p{
+        max-width: 320px;
+    }
+    .btn{
+        font-size: 10px;
+        font-weight: 500;
+        transition: all .6s ease;
+        margin-right: 20px;
+        ;
+    }
+   
 
+}
