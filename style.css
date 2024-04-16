@@ -155,16 +155,21 @@ section{
     top: 80%;
     padding: 0 12%;
     transform: translateY(-50%);
+
+}
+.icons a {
+    text-decoration: none; 
 }
 .icons i{
     display: line;
-    margin: 0 20px ;
+    margin: 0 10px ;
     color: var(--text-color);
     font-size: 23px;
     transition: all .6s;
 
 }
-.icons i:hover{
+.icons i:hover,
+.icons:focus{
     transform: translateY(-5px);
     color: var(--main-color);
 }
