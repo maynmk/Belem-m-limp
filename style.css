@@ -161,7 +161,7 @@ section{
     text-decoration: none; 
 }
 .icons i{
-    display: line;
+    display: inline-block;
     margin: 0 10px ;
     color: var(--text-color);
     font-size: 23px;
